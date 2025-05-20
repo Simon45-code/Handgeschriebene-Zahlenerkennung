@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib as plt
 from tensorflow import keras
-import seaborn as sn
 
 (X_train, y_train), (X_test, y_test) = keras.datasets.mnist.load_data()
 
